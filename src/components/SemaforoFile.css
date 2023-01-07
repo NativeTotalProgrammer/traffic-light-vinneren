@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.div-semaforo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  border: 7px solid black;
+  width: 23rem;
+  height: 37rem;
+}
+
+.circulo {
+  border: 3px solid black;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.activado {
+  background-color: yellow;
+}
